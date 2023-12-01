@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta charset="utf-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>tried & cooked</title>
+    <link rel="stylesheet" href="wordsstyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/odr0grf.css">
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js" integrity="sha256-6XMVI0zB8cRzfZjqKcD01PBsAy3FlDASrlC8SxCpInY=" crossorigin="anonymous"></script>
+    <script src="wordsindex.js"></script>
+</head>
+<body>
+
+    <h1>tried & cooked</h1>
+
+    <div class="mastercontainer">
+        <div class="nav"> 
+            <a href="index.html" class="aa">[click here to see images]</a>
+            <button class="btn" onclick="filterSelection('all')">[all]</button>
+            <button class="btn" onclick="filterSelection('cooked')">[cooked]</button>
+            <button class="btn" onclick="filterSelection('tried')">[tried]</button>
+         </div>
+
+        <div class="textcontainer">
+            <div class="textbox cooked"><a href="macandcheese.html"><span class="macandcheese">pasta cradled in a luscious cheese sauce; a classic comfort dish that everybody loves</span></a></div>
+            <div class="textbox cooked"><span class="pizza">an artisinal homemade dish topped with roasted capsicum and caramalized onions</span></div>
+            <div class="textbox cooked"><span class="momos">steamed secrets wrapped in dough, a savory surprise with chicken's flow</span></div>
+            <div class="textbox tried"><span class="glass">a vibrant medley of rice noodles and fresh veggies, elevated by a tantalizing tamarind-infused sauce</span></div>
+            <div class="textbox cooked"><span class="sambar">a flavor-packed potion where veggies and lentils meld in spicy harmony</span></div>
+            <div class="textbox tried"><span class="egg">a Georgian delight; a blend of warm, cheesy indulgence enclosed within a perfectly baked bread boat</span></div>
+            <div class="textbox cooked"><span class="oats">soaked overnight and adorned with berries and banana slices, where creamy indulgence meets fruity exuberance</span></div>
+            <div class="textbox tried"><span class="lhamo">a translucent ribbon of noodle that embodies a mixture of Tibetan flavors and textures</span></div>
+            <div class="textbox tried"><span class="rice">glutinous rice cakes coated in a harmonious blend of soy, chili, and sesame sauce with veggies</span></div>
+        </div>
+
+    </div>
+
+    <script>
+        filterSelection("all")
+        function filterSelection(c) {
+          var x, i;
+          x = document.getElementsByClassName("textbox");
+          if (c == "all") c = "";
+          for (i = 0; i < x.length; i++) {
+            w3RemoveClass(x[i], "show");
+            if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+          }
+        }
+        
+        function w3AddClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+          }
+        }
+        
+        function w3RemoveClass(element, name) {
+          var i, arr1, arr2;
+          arr1 = element.className.split(" ");
+          arr2 = name.split(" ");
+          for (i = 0; i < arr2.length; i++) {
+            while (arr1.indexOf(arr2[i]) > -1) {
+              arr1.splice(arr1.indexOf(arr2[i]), 1);     
+            }
+          }
+          element.className = arr1.join(" ");
+        }
+        
+        // Add active class to the current button (highlight it)
+        var btnContainer = document.getElementById("nav");
+        var btns = btnContainer.getElementsByClassName("p");
+        for (var i = 0; i < btns.length; i++) {
+          btns[i].addEventListener("click", function(){
+            var current = document.getElementsByClassName("active");
+            current[0].className = current[0].className.replace(" active", "");
+            this.className += " active";
+          });
+        }
+        </script>
+     
+
+    
+    
+</body>
+</html>
