@@ -3,6 +3,20 @@ $(document).ready(function(){
     $(".title1").click(function(){
       $("recipe").toggleClass("icons")
     })
+
+    // var html = ""
+
+    // setInterval(function() {
+    //   html += html + '<div><img src="pizza.png" class="icons" id="icon4"></div>'
+
+    //   $(".icon-container").html(`${html}`)
+    
+
+    //   console.log("hello")
+    
+    // }, 3000);
+
+
     })
 
 

@@ -12,14 +12,14 @@ body{
 
 h1{
     font-size: 194pt;
-    line-height: 300pt;
+    line-height: 200pt;
     letter-spacing: -14px;
     font-family: "Inter", sans-serif;
     margin-left: 2.2vw;
-    margin-top: 70vh;
     color: rgb(223, 223, 223);
     position: fixed;
     overflow: hidden;
+    bottom: 0;
 }
 
 .mastercontainer{
@@ -266,6 +266,7 @@ a:visited{
     color: #e7ab13;
     font-family: mac, sans-serif;
     font-size: 198pt;
+    bottom: 0;  
 }
 
 
@@ -292,6 +293,7 @@ a:visited{
     letter-spacing: -10px;
     word-spacing: -55px;
     margin-top: 73vh;
+    bottom: 0;  
 }
 
 
@@ -318,6 +320,7 @@ a:visited{
     letter-spacing: -2px;
     margin-top: 72vh;
     margin-left: 2.5vw;
+    bottom: 0;  
 }
 
 @font-face{
@@ -341,6 +344,7 @@ a:visited{
     font-family: lhasa, sans-serif;
     font-size: 182pt;
     margin-top: 77.7vh;
+    bottom: 0;  
 }
 
 
@@ -364,6 +368,7 @@ a:visited{
     word-spacing: 1px;
     margin-top: 72.5vh;
     font-weight: lighter;
+    bottom: 0;  
 }
 
 
@@ -393,6 +398,7 @@ a:visited{
     word-spacing: -10px;
     margin-top: 71vh;
     overflow: visible;
+    bottom: 0;  
 }
 
 
@@ -419,6 +425,7 @@ a:visited{
     overflow: visible;
     margin-left: 2.5vw;
     margin-top: 71vh;
+    bottom: 0;  
 }
 
 
@@ -444,6 +451,7 @@ a:visited{
     font-weight: lighter;
     font-size: 207pt;
     letter-spacing: -9px;
+    bottom: 0;  
 }
 
 
@@ -469,6 +477,7 @@ a:visited{
     font-weight: lighter;
     font-size: 185pt;
     margin-top: 71.5vh;
+    bottom: 0;  
 }
 
 
