@@ -109,7 +109,6 @@ h1:hover{
 }
 
 
-
 @font-face{
     font-family: mac;
     src: url(BlueBoxSans-Bold.woff);
@@ -117,6 +116,12 @@ h1:hover{
 
 #macimg{
     background-color: none;
+}
+
+#macimg:active{
+   scale: 120%;
+   transition-duration: 0.7ms;
+   transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
 .mbody{
@@ -141,6 +146,12 @@ h1:hover{
 #moimg{
     background-color: none;
 }
+
+#moimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
 
 .mmbody{
     background-color: #e4e7c1;
@@ -168,6 +179,12 @@ h1:hover{
     background-color: none;
 }
 
+#riceimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 .rbody{
     background-color: #fef9ea;
     transition: all;
@@ -193,6 +210,12 @@ h1:hover{
     background-color: none;
 }
 
+#lhimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 .lbody{
     background-color: #e0aa15;
     transition: all;
@@ -211,6 +234,12 @@ h1:hover{
 #strawimg{
     background-color: none;
 }
+
+#strawimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
 
 .sbody{
     background-color: #f67578;
@@ -241,6 +270,12 @@ h1:hover{
     background-color: none;
 }
 
+#pizimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 .pbody{
     background-color: #f2c5c2;
     transition: all;
@@ -269,6 +304,12 @@ h1:hover{
     background-color: none;
 }
 
+#glassimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 .gbody{
     background-color: #f7f4f4;
     transition: all;
@@ -295,6 +336,13 @@ h1:hover{
     background-color: none;
 }
 
+#samimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+
 .sabody{
     background-color: #fda963;
     transition: all;
@@ -320,6 +368,12 @@ h1:hover{
     background-color: none;
 }
 
+#eggimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
 .ebody{
     background-color: #fdf9f8;
     transition: all;
@@ -339,6 +393,7 @@ h1:hover{
 
 
 @media screen and (max-width: 414px) {
+    
     h1{
         font-size: 71pt;
         line-height: 0.8;
@@ -396,7 +451,7 @@ h1:hover{
         display: flex;
         flex-direction: column;
         width: 370px;
-        margin-left: 7.3vw;
+        margin-left: 7.1vw;
         column-gap: 10px;
         margin-bottom: -1vh;
         
@@ -411,5 +466,15 @@ h1:hover{
     .show{
         display: block;
     }
-    
+
+
+
+    .mh1{
+        color: #e7ab13;
+        font-family: mac, sans-serif;
+        font-size: 70pt;
+        margin-top: 7vh;
+    }
+
+
 }

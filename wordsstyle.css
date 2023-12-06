@@ -471,3 +471,59 @@ a:visited{
     margin-top: 71.5vh;
 }
 
+
+
+
+@media screen and (max-width: 414px) {
+
+        h1{
+            font-size: 71pt;
+            line-height: 0.8;
+            letter-spacing: -3px;
+            font-family: "Inter", sans-serif;
+            text-align: center;
+            margin-right: 3vw;
+            color: rgb(223, 223, 223);
+            position: relative;
+            margin-top: 7vh;
+        }
+    
+        .mastercontainer{
+            margin-top: 5vh;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .nav{
+            display: inline-block;
+            padding-bottom: 30px;
+            margin-left: 3.6vw;
+        }
+        
+        .aa{
+            font-size: 8pt;
+            color: rgb(138, 138, 138);
+            font-family: "Inter", sans-serif;
+            margin-left: 7.5vw;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    
+        .btn{
+            border: none;
+            outline: none;
+            padding-left: 36px;
+            background-color:#141414;
+            color: rgb(138, 138, 138);
+            font-size: 8pt;
+            font-family: "Inter", sans-serif;
+            cursor: pointer;
+        }
+
+        .textcontainer{
+            font-size: 10pt;
+            margin-right: 4vw;
+        }
+
+ }
