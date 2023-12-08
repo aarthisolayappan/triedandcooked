@@ -240,7 +240,7 @@ h1:hover{
     scale: 120%;
     transition-duration: 0.7ms;
     transition: cubic-bezier(0.075, 0.82, 0.165, 1);
- }
+}
 
 .sbody{
     background-color: #f67578;
@@ -456,8 +456,9 @@ h1:hover{
         margin-left: 7.1vw;
         column-gap: 10px;
         margin-bottom: -1vh;
-        
     }
+
+
     
     .imagebox{
         scale: 0.8;

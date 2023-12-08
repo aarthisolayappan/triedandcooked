@@ -1,64 +1,32 @@
 
 $(document).ready(function(){
-    $(".row").children().draggable();({
+    $(".image-container").children().draggable();({
     })
 
-    $('#macimg').hover(function(){
-        $('body').toggleClass("mbody");
-        $('h1').toggleClass("mh1");
-      })
+    $(document).ready(function(){
+      $(".title1").on('click',function(){
+          $(this).parent().find(".descriptionm").toggleClass("active");
+          $(this).parent().find(".title1").toggleClass("title1c");
+      });
+      
 
-      $('#moimg').hover(function(){
-        $('body').toggleClass("mmbody");
-        $('h1').toggleClass("mmh1");
-      })
-
-      $('#riceimg').hover(function(){
-        $('body').toggleClass("rbody");
-        $('h1').toggleClass("rh1");
-      })
-
-      $('#lhimg').hover(function(){
-        $('body').toggleClass("lbody");
+      $('h1').hover(function(){
         $('h1').toggleClass("lh1");
       })
 
-      $('#strawimg').hover(function(){
-        $('body').toggleClass("sbody");
-        $('h1').toggleClass("sh1");
-      })
+    })
 
-      $('#pizimg').hover(function(){
-        $('body').toggleClass("pbody");
-        $('h1').toggleClass("ph1");
-      })
+  })
 
-      $('#glassimg').hover(function(){
-        $('body').toggleClass("gbody");
-        $('h1').toggleClass("gh1");
-      })
-
-      $('#samimg').hover(function(){
-        $('body').toggleClass("sabody");
-        $('h1').toggleClass("sah1");
-      })
-
-      $('#eggimg').hover(function(){
-        $('body').toggleClass("ebody");
-        $('h1').toggleClass("eh1");
-      })
-
-
-    // const mQuery = window.matchMedia('(max-width: 414px)')
-    // if (mQuery.matches) { 
-    //   console.log('Media query matched!') 
-    //   setInterval(function (){
-    //     if(mQuery.matches){
-    //     $('h1').toggleClass("mh1");}
-    //       },1000
-      
-
- })
+    // $(".title1").on('click',function(){
+    //   $(".ingred").delay(1000).fadeToggle(0);
+    //   $(".ingred1").delay(2000).fadeToggle(0);
+    //   $(".ingred2").delay(3000).fadeToggle(0);
+    //   $(".ingred3").delay(4000).fadeToggle(0);
+    //   $(".ingred4").delay(5000).fadeToggle(0);
+    //   $(".ingred5").delay(6000).fadeToggle(0);
+    //   $(".ingred6").delay(7000).fadeToggle(0);
+    // });
 
 
 
