@@ -115,7 +115,7 @@ a:visited{
 }
 
 .bigimage{
-    scale: 50%;
+    scale: 47%;
     margin: auto;
     margin-left: 1.9vw;
 }
@@ -247,19 +247,22 @@ ul{
 
 
 
-@media screen and (max-width: 414px) {
-    
+@media screen and (max-width: 500px) {
+   
+
+
     h1{
         font-size: 70pt;
         line-height: 0.85;
         letter-spacing: -3px;
         color: rgb(223, 223, 223);
         position: relative;
-        margin: auto;
-        margin-top: 56vh;
         text-align: center;
-        margin-bottom: 10vh;
-        width: 80vw;
+        margin-top: 34vh;
+        text-align: center;
+        margin-bottom: 5vh;
+        margin-right: 15vw;
+        margin-left: 15vw;
     }
 
     .mh1{
@@ -274,13 +277,14 @@ ul{
         position: relative;
         justify-content: center;
         align-items: center;
+        width: 10%;
     }
 
     .nav{
         display: flex;
         padding-bottom: 30px;
-        margin: auto;
-        margin-top: 4.3vh;
+        margin-left: 7.2vw;
+        margin-top: 3.8vh;
         gap: 25vw;
         font-size: smaller;
     }
@@ -288,8 +292,8 @@ ul{
     .arrow{
         position: fixed;
         scale: 30%;
-        margin-left: 7vw;
-        margin-top: 70vh;
+        margin-left: 4.6vw;
+        margin-top: 50vh;
         transform: scaleX(-1);
     }
     
@@ -297,92 +301,45 @@ ul{
         position: fixed;
         scale: 30%;
         margin-left: 76vw;
-        margin-top: 70vh;
+        margin-top: 50vh;
     }
     
-    
-    img{
-        scale: 15%;
-        margin: auto;
-    }
+
 
     .bigimage{
-        scale: 15%;
         margin: auto;
-        margin-left: 2vw;
+        width: 500px;
+        padding-bottom: 160px;
     }
 
-    .btn{
-        border: none;
-        outline: none;
-        padding-left: 36px;
-        background-color:#141414;
-        color: rgb(138, 138, 138);
-        font-size: 8pt;
-        font-family: "Inter", sans-serif;
-        cursor: pointer;
-    }
 
-    .row {
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        gap: 10px;
-        padding-bottom: 8px;
-      }
-
-    .imagecontainer{
-        display: flex;
-        flex-direction: column;
-        width: 370px;
-        margin-left: vw;
-        column-gap: 10px;
-        margin-bottom: -1vh;
-        
-    }
-    
-    .imagebox{
-        scale: 0.8;
-        animation: rotation 5s infinite linear;
-        display: none;
-    }
-
-    .show{
-        display: block;
-    }
 
     .tried{
-        font-size: 30pt;
-        line-height: 31pt;
+        font-size: 36pt;
+        line-height: 37pt;
         letter-spacing: 0.5px;
-        padding: 20px;
+        width: fit-content;
+        margin-bottom: 300px;
+        width: 92vw;
         color: #f1bf4c;
         position: relative;
-        margin:auto;
         font-family: "articulat-cf", sans-serif;
         font-weight: 400;
         font-style: normal;
-        text-align: center;
         position: sticky;
-        top: 100px;
+        top: 300px;
+        margin: auto;
     }
     
     
-    @keyframes tilt{
-        50% {transform: rotate(1deg);}
-    }
-    
-    
-    .bigimage:hover{
-        animation: tilt 0.7s infinite;
-        animation-timing-function: linear;
-    }
+
     
     .big-container{
         background-color: #f1bf4c;
         height: 100%;
         width: 100%;
         position: sticky;
+        margin-top: -150px;
         
     }
     
@@ -442,8 +399,8 @@ ul{
         margin-top: 20vh;
         margin-left: 2vw;
         justify-content: center;
-        width: 100%;
-        gap:3vh;
+        width: 90%;
+        gap: 3vh;
     }
     
     .container1{

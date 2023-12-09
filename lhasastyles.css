@@ -54,7 +54,7 @@ body{
     }
 
     100% {
-        font-family: "lhamo";
+        font-family: "gabriella", serif;
     }
 }
 
@@ -78,7 +78,7 @@ h1{
 
 .lh1{
     color: #894f00;
-    font-family: lhamo, sans-serif;
+    font-family: "gabriella", serif;
 }
 
 .protip{

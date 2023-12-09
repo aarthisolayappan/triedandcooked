@@ -23,7 +23,7 @@ h1{
 }
 
 .mastercontainer{
-    margin-top: 18vh;
+    margin-top: 15vh;
     position: absolute;
 }
 
@@ -288,12 +288,11 @@ a:visited{
 
 .mmh1{
     color: #699524;
-    font-family: momo, sans-serif;
-    font-size: 230pt;
-    letter-spacing: -10px;
-    word-spacing: -55px;
-    margin-top: 73vh;
-    bottom: 0;  
+    font-family: "monarcha", serif;
+    font-size: 205pt;
+    letter-spacing: -8px;
+    word-spacing: -20px;
+    bottom: 0;   
 }
 
 
@@ -341,10 +340,11 @@ a:visited{
 
 .lh1{
     color: #894f00;
-    font-family: lhasa, sans-serif;
-    font-size: 182pt;
-    margin-top: 77.7vh;
+    font-family: "gabriella", serif;
+    font-size: 106pt;
+    letter-spacing: -3px;
     bottom: 0;  
+    overflow: visible; 
 }
 
 
@@ -449,7 +449,7 @@ a:visited{
     color: #fa6517;
     font-family: sambar, sans-serif;
     font-weight: lighter;
-    font-size: 207pt;
+    font-size: 209pt;
     letter-spacing: -9px;
     bottom: 0;  
 }
