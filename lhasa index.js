@@ -14,9 +14,23 @@ $(document).ready(function(){
         $('h1').toggleClass("lh1");
       })
 
+      // $(window).scroll(function(){
+      //   var scroll = $(window).scrollTop();
+      //   $(".video img").css({
+      //     width: (100 + scroll/5) + "%"
+      //   })
+
+        $("#memory").click(function(){
+        scrollTo(0,4365)
+
+      })
+
+      })
+
     })
 
-  })
+
+
 
     // $(".title1").on('click',function(){
     //   $(".ingred").delay(1000).fadeToggle(0);

@@ -14,7 +14,6 @@ $(document).ready(function(){
         $('h1').toggleClass("mh1");
       })
 
- 
 
 
     // const mQuery = window.matchMedia('(max-width: 414px)')
@@ -28,6 +27,13 @@ $(document).ready(function(){
     //     )}
     
     })
+
+
+    $("#memory").click(function(){
+      scrollTo(0,5081)
+
+    })
+
 
   })
 

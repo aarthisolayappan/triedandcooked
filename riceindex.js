@@ -16,6 +16,11 @@ $(document).ready(function(){
 
     })
 
+    $("#memory").click(function(){
+      scrollTo(0,4365)
+
+    })
+
   })
 
     // $(".title1").on('click',function(){

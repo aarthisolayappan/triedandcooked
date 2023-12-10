@@ -13,7 +13,7 @@ body{
 }
 
 .arrow{
-    position: fixed;
+    position: absolute;
     scale: 80%;
     margin-left: 7vw;
     margin-top: 60vh;
@@ -21,7 +21,7 @@ body{
 }
 
 .arrowa{
-    position: fixed;
+    position: absolute;
     scale: 80%;
     margin-left: 89vw;
     margin-top: 60vh;
@@ -40,6 +40,10 @@ body{
     margin-left: 2.2vw;
     margin-top: 1.8vw;
     margin-right: 2.2vw;
+}
+
+#memory{
+    background-color: none;
 }
 
 @keyframes texts{
@@ -102,7 +106,8 @@ a:visited{
     font-style: normal;
     text-align: center;
     position: sticky;
-    top: 90px;
+    mix-blend-mode: lighten;
+    top: 75px;
 }
 
 
@@ -128,6 +133,14 @@ a:visited{
     position: sticky;
     
 }
+
+.video{
+    margin-top: 150vh;
+    margin-bottom: 50vh;
+    margin-left: 8vw;
+    margin-top: 550px;
+}
+
 
 .titles{
     display: flex;

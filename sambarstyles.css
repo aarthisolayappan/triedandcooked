@@ -19,7 +19,7 @@ body{
 
 
 .arrow{
-    position: fixed;
+    position: absolute;
     scale: 80%;
     margin-left: 7vw;
     margin-top: 60vh;
@@ -27,7 +27,7 @@ body{
 }
 
 .arrowa{
-    position: fixed;
+    position: absolute;
     scale: 80%;
     margin-left: 87vw;
     margin-top: 60vh;

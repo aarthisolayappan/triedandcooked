@@ -194,16 +194,18 @@ h1:hover{
 
 .rh1{
     color: #9d8369;
-    font-family: rice, sans-serif;
+    font-family: "giulia";
+    font-weight: lighter;
     font-size: 209pt;
-    letter-spacing: -2px;
+    letter-spacing: -10.3px;
     bottom: 0;  
     margin-left: 2.5vw;
+    overflow: visible;
 }
 
-@font-face{
-    font-family: lhasa;
-    src: url(NotoSerifTibetan-Bold.ttf);
+@font-face {
+    font-family: flat;
+    src: url(DiscórdiaTest-BoldItalic.otf);
 }
 
 #lhimg{
@@ -225,8 +227,8 @@ h1:hover{
 
 .lh1{
     color: #894f00;
-    font-family: "gabriella", serif;
-    font-size: 106pt;
+    font-family: "flat";
+    font-size: 167pt;
     letter-spacing: -3px;
     bottom: 0;  
     overflow: visible;

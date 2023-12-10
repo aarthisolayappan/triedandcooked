@@ -14,7 +14,10 @@ $(document).ready(function(){
         $('h1').toggleClass("eh1");
       })
 
- 
+      $("#memory").click(function(){
+        scrollTo(0,4365)
+
+      })
 
 
     const mQuery = window.matchMedia('(max-width: 414px)')

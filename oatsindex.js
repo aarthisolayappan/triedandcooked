@@ -14,6 +14,11 @@ $(document).ready(function(){
         $('h1').toggleClass("sh1");
       })
 
+      $("#memory").click(function(){
+        scrollTo(0,4733)
+
+      })
+
     })
 
   })
