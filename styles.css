@@ -75,15 +75,15 @@ h1:hover{
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    gap: 34px;
+    /* gap: 34px; */
     padding-bottom: 28px;
+    column-gap: 34px;
   }
 
 .imagecontainer{
     display: flex;
     flex-direction: column;
     width: 50vw;
-    column-gap: 34px;
     margin-left: 6vw;
     margin-bottom: 3vh;
 }
@@ -93,20 +93,26 @@ h1:hover{
         transform: rotate(0deg);
     }
     to{
-        transform: rotate(359deg);
+        transform: rotate(360deg);
     }
 }
 
 .imagebox{
     height: 110px;
     width: 110px;
-    animation: rotation 3s infinite linear;
+    animation: rotation 3s linear infinite;
+    display: none;
+}
+
+.a{
     display: none;
 }
 
 .show{
     display: block;
 }
+
+
 
 
 @font-face{
@@ -394,6 +400,33 @@ h1:hover{
     bottom: 0;  
 }
 
+
+
+#channaimg{
+    background-color: none;
+}
+
+#channaimg:active{
+    scale: 120%;
+    transition-duration: 0.7ms;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+ }
+
+.cbody{
+    background-color: #dfcfae;
+    transition: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.ch1{
+    color: #a95125;
+    font-family: "reina-display";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 216pt;
+    bottom: 0;  
+}
 
 
 

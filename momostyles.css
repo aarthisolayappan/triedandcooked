@@ -171,10 +171,6 @@ ul{
 }
 
 
-a{
-    text-decoration: none;
-}
-
 .mastercontainer{
     display: flex;
     flex-direction: column;

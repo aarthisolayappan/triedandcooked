@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
-    $(".row").children().draggable();({
-    })
+    // $(".row").children().draggable();({
+    // })
 
     $('#macimg').hover(function(){
         $('body').toggleClass("mbody");
@@ -48,6 +48,12 @@ $(document).ready(function(){
         $('h1').toggleClass("eh1");
       })
 
+      $('#channaimg').hover(function(){
+        $('body').toggleClass("cbody");
+        $('h1').toggleClass("ch1");
+      })
+
+      
 
     // const mQuery = window.matchMedia('(max-width: 414px)')
     // if (mQuery.matches) { 

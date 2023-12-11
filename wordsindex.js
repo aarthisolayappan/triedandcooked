@@ -48,6 +48,10 @@ $(document).ready(function(){
         $('h1').toggleClass("eh1");
       })
 
+      $('.channa').hover(function(){
+        $('body').toggleClass("cbody");
+        $('h1').toggleClass("ch1");
+      })
 
 })
 

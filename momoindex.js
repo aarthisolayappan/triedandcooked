@@ -15,6 +15,10 @@ $(document).ready(function(){
       })
 
   
+      $("#memory").click(function(){
+        scrollTo(0,3375)
+
+      })
 
 
 
