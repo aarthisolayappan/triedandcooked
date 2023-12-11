@@ -115,6 +115,15 @@ a:visited{
     50% {transform: rotate(1deg);}
 }
 
+.big{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
 .bigimage{
     scale: 50%;
     margin: auto;
@@ -132,6 +141,15 @@ a:visited{
     width: 100%;
     position: sticky;
     
+}
+
+.video{
+    width: 1400px;
+    height: 800px;
+    margin-top: 150vh;
+    margin-bottom: 97vh;
+    margin-left: 8vw;
+    margin-top: 520px;
 }
 
 .titles{
@@ -241,6 +259,11 @@ ul{
 
 .descriptionm.active{
     display: inline;
+}
+
+
+#memory{
+    background-color: none;
 }
 
 
