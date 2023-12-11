@@ -21,16 +21,16 @@ body{
 .arrow{
     position: absolute;
     scale: 80%;
-    margin-left: 7vw;
-    margin-top: 60vh;
+    margin-left: 5vw;
+    margin-top: 80vh;
     transform: scaleX(-1);
 }
 
 .arrowa{
     position: absolute;
     scale: 80%;
-    margin-left: 87vw;
-    margin-top: 60vh;
+    margin-left: 90vw;
+    margin-top: 80vh;
 }
 
 
@@ -67,10 +67,10 @@ h1{
     font-size: 250pt;
     line-height: 190pt;
     letter-spacing: -14px;
-    margin-top: 35vh;
+    margin-top: 30vh;
     margin-right: 4vw;
     margin-left: 4vw;
-    margin-bottom: 10vh;
+    margin-bottom: 20vh;
     text-align: center;
     color: rgb(229, 229, 229);
     font-weight: 400;
@@ -115,13 +115,23 @@ a:visited{
     mix-blend-mode:lighten;
     text-align: center;
     position: sticky;
-    top: 84px;
+    margin-bottom: 15vh;
+    top: 100px;
 }
 
 
 @keyframes tilt{
     50% {transform: rotate(1deg);}
 }
+
+.big{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
 
 .bigimage{
     height: 700px;
@@ -133,11 +143,13 @@ a:visited{
 }
 
 .video{
+    width: 1400px;
+    height: 800px;
     margin-top: 150vh;
-    margin-bottom: 50vh;
+    margin-bottom: 97vh;
     margin-left: 8vw;
+    margin-top: 190vh;
 }
-
 
 
 .bigimage:hover{
@@ -206,6 +218,8 @@ ul{
     justify-content: center;
     width: 100%;
     gap:5vh;
+    padding-bottom: 7vh;
+
 }
 
 .container1{

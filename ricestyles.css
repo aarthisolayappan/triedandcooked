@@ -21,16 +21,16 @@ body{
 .arrow{
     position: absolute;
     scale: 80%;
-    margin-left: 7vw;
-    margin-top: 60vh;
+    margin-left: 4.4vw;
+    margin-top: 83.25vh;
     transform: scaleX(-1);
 }
 
 .arrowa{
     position: absolute;
     scale: 80%;
-    margin-left: 89vw;
-    margin-top: 60vh;
+    margin-left: 89.4vw;
+    margin-top: 83.25vh;
 }
 
 
@@ -44,7 +44,7 @@ body{
     font-family: "articulat-cf", sans-serif;
     font-weight: 400;
     margin-left: 2.2vw;
-    margin-top: 1.1vw;
+    margin-top: 0.8vw;
     margin-right: 2.2vw;
 }
 
@@ -69,7 +69,7 @@ h1{
     font-size: 220pt;
     line-height: 190pt;
     letter-spacing: -14px;
-    margin-top: 42.5vh;
+    margin-top: 45vh;
     margin-right: 4vw;
     margin-left: 4vw;
     margin-bottom: 22vh;
@@ -119,12 +119,29 @@ a:visited{
     font-style: normal;
     text-align: center;
     position: sticky;
-    top: 100px;
+    top: 130px;
 }
 
 
 @keyframes tilt{
     50% {transform: rotate(1deg);}
+}
+
+.big{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.video{
+    width: 1400px;
+    height: 800px;
+    margin-top: 150vh;
+    margin-bottom: 97vh;
+    margin-left: 8vw;
+    margin-top: 520px;
 }
 
 .bigimage{
@@ -197,6 +214,8 @@ ul{
     justify-content: center;
     width: 100%;
     gap:5vh;
+    padding-bottom: 7vh;
+
 }
 
 .container1{

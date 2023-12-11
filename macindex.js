@@ -30,7 +30,7 @@ $(document).ready(function(){
 
 
     $("#memory").click(function(){
-      scrollTo(0,5081)
+      scrollTo(0,4930)
 
     })
 
