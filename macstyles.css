@@ -336,7 +336,7 @@ ul{
         margin-bottom: 0;
         margin: auto;
         margin-top: 12vh;
-        
+        overflow: hidden;
     }
 
 

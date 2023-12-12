@@ -442,8 +442,9 @@ a:visited{
     font-size: 255pt;
     overflow: visible;
     margin-left: 2.5vw;
-    margin-top: 71vh;
+    width: 100%;
     bottom: 0;  
+
 }
 
 

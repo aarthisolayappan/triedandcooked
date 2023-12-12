@@ -260,6 +260,217 @@ ul{
 
 
 
+@media screen and (max-width: 450px) {
+
+
+    h1{
+        font-size: 60pt;
+        line-height: 0.85;
+        letter-spacing: -3px;
+        color: rgb(223, 223, 223);
+        position: relative;
+        text-align: center;
+        margin-top: 44vh;
+        text-align: center;
+        margin-bottom: 4vh;
+        margin-left: 2vw;
+    }
+
+    .mh1{
+        color: #699524;
+        font-family: momo, sans-serif;
+        font-size: 60pt;
+    }
+
+
+    .nav{
+        display: flex;
+        padding-bottom: 30px;
+        margin: auto;
+        margin-top: 3.8vh;
+        gap: 25vw;
+        font-size: smaller;
+    }
+
+    .arrow{
+        position: absolute;
+        scale: 30%;
+        margin-left: 2vw;
+        margin-top: 50vh;
+        transform: scaleX(-1);
+    }
+    
+    .arrowa{
+        position: absolute;
+        scale: 30%;
+        margin-left: 80vw;
+        margin-top: 50vh;
+    }
+    
+
+    .big{
+        margin-bottom: 25vh;
+        margin-top: 12vh;
+    }
+
+    .bigimage{
+        height: 120%;
+        width: 120%;
+        margin-bottom: 7vh;
+        position: relative;
+    }
+
+
+
+
+    .tried{
+        font-size: 36pt;
+        line-height: 37pt;
+        letter-spacing: 0.5px;
+        width: 92vw;
+        color: #8fcd2c;
+        position: relative;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        position: sticky;
+        top: 120px;
+        margin: auto;
+    }
+    
+
+    
+    .big-container{
+        background-color: #699524;
+        height: 100%;
+        width: 100%;
+        position: sticky;
+        margin-top: 0px;
+        
+    }
+    
+    .titles{
+        display: flex;
+        gap: 10px;
+        font-size: 12pt;
+        letter-spacing: 0.1px;
+        flex-direction: row;
+        padding-top: 35px;
+        margin-left: 6vw;
+        margin-right: 8.5vw;
+        color: #141414;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 700;
+        line-height: 14pt;
+        align-items: center;
+        justify-content: space-evenly;
+        text-align: center;
+    }
+    
+    .title{
+        font-size: 24pt;
+        line-height: 24pt;
+        font-family: "articulat-cf", sans-serif;
+        color:#141414;
+        font-weight: 700;
+        margin-right: 6.5vw;
+        text-align: center;
+        
+    }
+    
+    .description{
+        font-size: 15.4pt;
+        line-height: 19pt;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 400;
+        color: #141414;
+        padding: 40px;
+        padding-bottom: 50px;
+        text-align: center;
+    
+    }
+    
+    ul{
+        margin-left: 1.6vw;
+    }
+    
+    
+    .mastercontainer{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        margin-top: 20vh;
+        padding-bottom: 5vh;
+        margin-left: 2vw;
+        justify-content: center;
+        width: 90%;
+        gap: 3vh;
+    }
+
+
+    .container1{
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 1;
+        padding-left: 20px;
+        padding-right: 40px;
+        width: 100%;
+        margin-bottom: 2vh;
+        row-gap: 1vw;
+    }
+    
+    .title1{
+        font-size: 34pt;
+        line-height: 36pt;
+        font-family: "articulat-cf", sans-serif;
+        color: rgb(185, 185, 185);
+        font-weight: 400;
+        letter-spacing: -0.6px;
+        height: fit-content;
+       
+    }
+    
+    .title1:hover{
+        color: #699524;
+        font-style: italic;
+    }
+    
+    .title1:active{
+        color: #141414;
+    }
+    
+    .title1c{
+        color: #699524;
+        background-color: none;
+        padding-right: 15px;
+        height: auto;
+        letter-spacing: -1px;
+    
+    }
+    
+    .descriptionm{
+        font-size:14pt;
+        letter-spacing: 0px;
+        line-height: 17pt;
+        font-family: "articulat-cf", sans-serif;
+        font-weight: 400;
+        color: rgb(185, 185, 185);
+        font-weight: 200;
+        margin-bottom: 1vh;
+        display: none;
+        margin-left: 2vw;
+        margin-top: 5px;        
+    }
+    
+    .descriptionm.active{
+        display: inline;
+    }
+
+  
+
+}
+
+
 /* 
 .marquee{
     height: 50px;
