@@ -16,7 +16,7 @@ $(document).ready(function(){
 
   
       $("#memory").click(function(){
-        scrollTo(0,3422)
+        scrollTo(0,3392)
 
       })
     })

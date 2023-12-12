@@ -472,7 +472,7 @@ h1:hover{
     .aa{
         font-size: 8pt;
         color: rgb(138, 138, 138);
-        font-family: "Inter", sans-serif;
+        font-family: "articulat-cf", sans-serif;
         margin-left: 7.5vw;
         text-decoration: none;
         cursor: pointer;
@@ -485,7 +485,7 @@ h1:hover{
         background-color:#141414;
         color: rgb(138, 138, 138);
         font-size: 8pt;
-        font-family: "Inter", sans-serif;
+        font-family: "articulat-cf", sans-serif;
         cursor: pointer;
     }
 
