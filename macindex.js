@@ -14,7 +14,22 @@ $(document).ready(function(){
         $('h1').toggleClass("mh1");
       })
 
+      $("#memory").click(function(){
+        scrollTo(0,4925)
+  
+      })
+  
+      const mQuery = window.matchMedia('(max-width: 450px)')
+        if (mQuery.matches) { 
+          console.log('Media query matched!') 
 
+          $("#memory").click(function(){
+            scrollTo(0,2042)
+      
+          })
+        }
+        
+    })
 
     // const mQuery = window.matchMedia('(max-width: 414px)')
     // if (mQuery.matches) { 
@@ -26,14 +41,7 @@ $(document).ready(function(){
       
     //     )}
     
-    })
-
-
-    $("#memory").click(function(){
-      scrollTo(0,4945)
-
-    })
-
+  
 
   })
 
